@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./assets/css/vendings.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/6c0f805cf4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <!-- ============== HEADER STARTS ==================== -->
+  <header class="head">
+    <p class="logo"><a href="/">ZAROX</a></p>
+    <ul class="unlist">
+      <a href="vendings.html"><li>Buy Token</li></a>
+      <a href="/#overview"><li>Overview</li></a>
+      <a href="/#feature"><li>Key Feature</li></a>
+      <a href="/#work"><li>How it work</li></a>
+    </ul>
+    <div class="btn">
+      <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </div>
+      <button class="login"><a href="login.html">Login</a></button>
+    </div>
+  </header>
+  <!-- ================ HEADER ENDS ===================== -->
+
+  <!-- ================ HOME CONTENTS STARTS ====================== -->
+
+  <div class="vend">
+    <div class="v-form">
+      <div class="v-top border">
+        <p>Vend your meter now, do not wait, untill you run out of unit.</p>
+      </div>
+      <div class="v-bottom border">
+        <div class="method">
+          <p>Vending method</p>
+          <div class="flex cot">
+            <label for="unit" class="border">
+              <p>Vend By Unit</p>
+              <input type="radio" id="unit" name="vend">
+            </label>
+            <label for="amount" class="border">
+              <p>Vend By Amount</p>
+              <input type="radio" id="amount" name="vend">
+            </label>
+          </div>
+        </div>
+
+        <div class="meter">
+          <p>Meter No</p>
+          <input type="number" placeholder="000000000111100" class="border">
+        </div>
+
+        <div class="amount">
+          <p>Amount (NGN)</p>
+          <input type="number" placeholder="5000" class="border">
+        </div>
+
+        <div class="ephone flex">
+          <div class="email">
+            <p>Email</p>
+            <input type="email" placeholder="abcd@ef.com" class="border">
+          </div>
+          <div class="phone">
+            <p>Phone</p>
+            <input type="number" placeholder="0900000110" class="border">
+          </div>
+        </div>
+    
+        <p class="total">Total: N0.00</p>
+
+        <div class="payment">
+          <label for="squad" class="border">
+            <img src="./assets/svg/squad_logo.svg" alt="">
+            <input type="radio" id="squad" name="pay">
+          </label>
+          <label for="paystack" class="border">
+            <img src="./assets/svg/paystack_logo.svg" alt="">
+            <input type="radio" id="paystack" name="pay">
+          </label>
+          <label for="transfer" class="border">
+            <img src="./assets/svg/squad_logo.svg" alt="">
+            <input type="radio" id="transfer" name="pay">
+          </label>
+        </div>
+
+        <div class="btns flex">
+          <button class="login"><a href="login.html">My dashboard</a></button>
+          <button class="login">Token</button>
+        </div>
+      </div>
+    </div>
+    <div class="v-text">
+      <p class="title1"><span class="dark">Infrastructure for</span> Advanced Metering and Token Vending</p>
+      <p class="text">ZAROX offers revenue protection services for power utility firms, overseeing power usage, preventing revenue losses, and facilitating convenient meter recharges for customers from any location.</p>
+    </div>
+  </div>
+  
+  <!-- ================ HOME CONTENTS ENDS ====================== -->
+
+  <!-- ================ FOOTER STARTS ======================== -->
+  <div class="footer">
+    <div class="footer-top">
+      <div class="cone">
+        <p class="f-title">Product</p>
+        <ul>
+          <li>Vending</li>
+          <li>AMI</li>
+          <li>Head End System</li>
+          <li>Meter Data Management System</li>
+          <li>Business Intelligence</li>
+        </ul>
+      </div>
+      <div class="cone">
+        <p class="f-title">Company</p>
+        <ul>
+          <li>About</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+      <div class="cone">
+        <p class="f-title">Company</p>
+        <ul class="social">
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+          <li><i class="fa-brands fa-square-instagram"></i></li>
+        </ul>
+      </div>
+    </div>
+    <div class="for-copy">
+      <p>&copy; ZAROX-ENERGY 2024</p>
+    </div>
+  </div>
+  
+</body>
+</html>

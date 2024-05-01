@@ -1,0 +1,117 @@
+.vend{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  gap: 30px;
+}
+
+.v-text{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.v-form{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title1{
+  font-size: 50px;
+  color: var(--primary);
+}
+
+.title1 .dark{
+  color: var(--dark);
+}
+
+.border{
+  border: 1px solid rgba(183, 180, 180, 0.8);
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.text{
+  font-size: 20px;
+
+}
+
+.payment{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.total{
+  font-size: 20px;
+  margin-top: 15px;
+  color: red;
+  text-align: right;
+  font-weight: bold;
+}
+
+.cot{
+  gap: 15px;
+}
+
+.cot label{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ephone{
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ephone input{
+  width: 100%;
+}
+
+.ephone .email{
+  width: 100%;
+}
+
+.ephone .phone{
+  width: 100%;
+}
+
+.meter input{
+  font-size: 16px;
+}
+
+.payment label{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.payment img{
+  height: 20px;
+}
+
+.payment input:checked ~ .payment .border{
+  border: 1px solid skyblue;
+}
+
+.btns{
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .vend{
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .payment{
+    flex-direction: column;
+  }
+}
