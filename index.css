@@ -55,6 +55,10 @@ ul{
   font-size: 30px;
 }
 
+.logo img{
+  height: 50px;
+}
+
 .head1{
   color: var(--dark);
   font-size: 35px;
