@@ -98,6 +98,24 @@
   background: var(--dark);
 }
 
+.hid{
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.hid span{
+  font-size: 100px;
+  margin: auto 0;
+  margin-top: -50px;
+}
+
+.hid p{
+  margin: auto 0;
+  color: var(--dark);
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .one-image{
   margin: auto 0;
   padding: 20px;
@@ -188,6 +206,35 @@
 .go image{
   margin-left: 50px;
   height: 150px;
+}
+
+.app{
+  background: var(--primary);
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.app-title{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.logger{
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cold{
+  gap: 10px;
+}
+
+.cold img{
+  width: 100px;
 }
 
 @media (max-width: 768px) {
