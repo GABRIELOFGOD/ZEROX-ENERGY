@@ -2,12 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 :root{
-  --primary: blue;
+  --primary: #BFFF00;
   --secondary: whitesmoke;
-  --dark: darkblue;
+  --dark: #008000;
 }
 
 .flex{
@@ -50,6 +51,10 @@ ul{
 }
 
 .logo{
+  margin: auto 0;
+}
+
+.logo a{
   font-weight: bold;
   margin: auto 0;
   font-size: 30px;
@@ -70,18 +75,23 @@ ul{
   font-size: 30px;
 }
 
+.baba{
+  display: flex;
+  gap: 85px;
+  margin: auto 0;
+}
+
 .list,
 .unlist{
   display: flex;
   gap: 15px;
   margin: auto 0;
-  border-radius: 35px;
   padding: 10px 25px;
-  background: var(--secondary);
   color: var(--dark);
 }
 
-.list li:hover{
+.list li:hover,
+.unlist li:hover{
   color: var(--primary);
 }
 
@@ -110,6 +120,7 @@ ul{
 .f-title{
   font-weight: 500;
   font-size: 25px;
+  color: var(--dark);
 }
 
 .flex1{
@@ -149,7 +160,7 @@ ul{
 .social li{
   height: 30px;
   width: 30px;
-  background: black;
+  background: var(--primary);
   border-radius: 100%;
   display: flex;
   align-items: center;

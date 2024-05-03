@@ -1,10 +1,11 @@
 .home{
-  padding: 50px 100px;
+  padding: 150px 100px;
 }
 
 .home-hero{
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .text-box,
@@ -15,17 +16,18 @@
 .text-box{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   margin: auto 0;
 }
 
 .image-box img{
   width: 100%;
+  padding: 20px;
 }
 
-.title1{
+.title1, .title1 span{
   font-size: 50px;
-  color: var(--primary);
+  color: var(--dark);
 }
 
 .title1 .dark{
@@ -52,7 +54,7 @@
 /* ================== FEATURE STYLING ================== */
 
 .feature{
-  padding: 30px 0;
+  padding: 100px 0;
 }
 
 .top{
@@ -65,7 +67,7 @@
 
 /* ============== FEATURE CARD =============== */
 .feature-card-container{
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .feature-card{
@@ -93,10 +95,12 @@
 
 .text-cont button{
   border-radius: 5px;
+  background: var(--dark);
 }
 
 .one-image{
   margin: auto 0;
+  padding: 20px;
 }
 
 .one-image img{
@@ -111,6 +115,8 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  padding: 50px 30px;
+  background: var(--secondary);
 }
 
 .one-icon{
@@ -136,7 +142,8 @@
   display: flex;
   justify-content: space-between;
   gap: 100px;
-  margin-top: 50px;
+  margin-top: 150px;
+  padding: 30px 100px;
 }
 
 .start{
@@ -152,6 +159,11 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+.ass{
+  height: 150px;
+  display: flex;
 }
 
 .fan{
@@ -175,6 +187,7 @@
 
 .go image{
   margin-left: 50px;
+  height: 150px;
 }
 
 @media (max-width: 768px) {
