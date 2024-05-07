@@ -101,6 +101,11 @@
 .hid{
   justify-content: space-between;
   margin-top: 100px;
+  overflow-x: scroll;
+}
+
+.hid::-webkit-scrollbar{
+  display: none;
 }
 
 .hid span{
@@ -114,6 +119,7 @@
   color: var(--dark);
   font-weight: bold;
   font-size: 25px;
+  white-space: nowrap;
 }
 
 .one-image{
@@ -266,5 +272,30 @@
   .step-img{
     display: none;
   }
+
+  .steps{
+    gap: 50px;
+    margin-top: 100px;
+    padding: 30px 50px;
+  }
+
+  .steps .start{
+    font-size: 25px;
+  }
+
+  .image-box img {
+    padding: 0;
+  }
+
+  .app {
+    width: 100%;
+    padding: 40px 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .one-image {
+    padding: 0;
+}
 }
 
